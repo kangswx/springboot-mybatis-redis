@@ -20,3 +20,8 @@ spring:
 mybatis:
   config-location: classpath:mybatis/config.xml
   mapper-locations: classpath*:mybatis/mapper/**/*.xml
+
+#\u6253\u5370Mybatis\u65E5\u5FD7
+logging:
+  level:
+    com.kangswx.springbootmybatisredis.mapper: debug
